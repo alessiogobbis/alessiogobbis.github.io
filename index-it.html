@@ -1,76 +1,189 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dott. Alessio Gobbis - Senior Financial Advisor Allianz Bank FA Spa, Consulente Finanziario iscritto all'Albo OCF, esperto in pianificazione patrimoniale, investimenti e protezione del capitale.">
-    <title>Dott. Alessio Gobbis - Consulente Finanziario</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Poppins', sans-serif; background: #f4f6f9; color: #333; margin: 0;}
-        header { background: linear-gradient(135deg, #0b3d91, #1e5cb3); color: white; padding: 50px 20px; text-align: center; position: relative;}
-        .lang-switch { position: absolute; top: 15px; right: 20px;}
-        .lang-switch a { background: #caa334; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px;}
-        nav { background: #062d6a; padding: 15px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 500;}
-        section { padding: 40px; max-width: 1000px; margin: auto;}
-        .intro { text-align: center;}
-        .intro img { width: 140px; border-radius: 50%; margin-bottom: 20px;}
-        h2 { color: #0b3d91; margin-bottom: 20px;}
-        ul li { margin-bottom: 10px;}
-        .cta { text-align: center; margin-top: 30px;}
-        .cta a { background: #caa334; color: white; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold;}
-        footer { background: #062d6a; color: white; text-align: center; padding: 15px; margin-top: 40px;}
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dott. Alessio Gobbis - Senior Financial Advisor Allianz Bank FA Spa, Consulente Finanziario iscritto all'Albo OCF, esperto in pianificazione patrimoniale, investimenti e protezione del capitale.">
+  <title>Dott. Alessio Gobbis - Consulente Finanziario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b3d91, #1e5cb3);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header img.logo {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    .lang-switch {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+
+    .lang-switch a {
+      background: transparent;
+      color: #caa334;
+      border: 2px solid #caa334;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .lang-switch a:hover {
+      background-color: #caa334;
+      color: white;
+    }
+
+    .lang-switch img.flag {
+      width: 18px;
+      height: auto;
+    }
+
+    nav {
+      background: #062d6a;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 20px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .intro img {
+      width: 140px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #0b3d91;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta a {
+      background: none;
+      color: #0b3d91;
+      padding: 0;
+      border-radius: 0;
+      font-weight: 600;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .cta a:hover {
+      color: #062d6a;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #062d6a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="lang-switch">
-            <a href="index.html">🇬🇧 ENG</a>
-        </div>
-        <h1>Dott. Alessio Gobbis</h1>
-        <p>Senior Financial Advisor – Allianz Bank Financial Advisors Spa</p>
-    </header>
-    <nav>
-        <a href="#profilo">Profilo</a>
-        <a href="#titoli">Titoli e Riconoscimenti</a>
-        <a href="#contatti">Contatti</a>
-    </nav>
 
-    <section class="intro" id="profilo">
-        <img src="assets/foto-profilo.jpg" alt="Foto del Dott. Alessio Gobbis">
-        <h2>Profilo Professionale</h2>
-        <p>Il Dott. Alessio Gobbis è un <strong>Senior Financial Advisor</strong> di Allianz Bank Financial Advisors Spa, regolarmente iscritto all' <strong>Albo dei Consulenti Finanziari (OCF)</strong> con delibera Consob n° 723.  
-        Vanta una consolidata esperienza nella pianificazione patrimoniale, nella consulenza finanziaria avanzata e nella costruzione di portafogli d'investimento personalizzati, con particolare attenzione alla protezione del capitale e alla crescita sostenibile nel tempo.</p>
-    </section>
+  <header>
+    <div class="lang-switch">
+      <a href="index-en.html">
+        <img class="flag" src="assets/flag-en.svg" alt="Bandiera inglese" />
+        English
+      </a>
+    </div>
+    <img class="logo" src="assets/logo-ag.png" alt="Logo Alessio Gobbis" />
+    <h1>Dott. Alessio Gobbis</h1>
+    <p>Senior Financial Advisor – Allianz Bank Financial Advisors Spa</p>
+  </header>
 
-    <section id="titoli">
-        <h2>Titoli, Certificazioni e Cariche</h2>
-        <ul>
-            <li>🎓 Laurea e Master universitario post-laurea</li>
-            <li>📌 Consulente per il Tribunale di Padova – iscr. n° 3220</li>
-            <li>🏢 Office Manager del Centro Consulenza Allianz Bank di Padova (Via Fra’ Paolo Sarpi)</li>
-            <li>🌍 Consulente Certificato EFPA (European Financial Planning Association) – ESG Advisor</li>
-            <li>📚 Formatore certificato per l'Associazione Nazionale Consulenti Finanziari (ANASF)</li>
-            <li>✅ Membro del Registro Unico Intermediari – iscrizione n° E000549021 sez. E</li>
-            <li>👥 Membro dell'Associazione Italiana Educatori Finanziari – n° 763</li>
-        </ul>
-    </section>
+  <nav>
+    <a href="#profilo">Profilo</a>
+    <a href="#titoli">Titoli e Riconoscimenti</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
 
-    <section class="cta" id="contatti">
-        <h2>Contatti</h2>
-        <p><strong>Studio di supporto:</strong> Prato della Valle n° 74, 35123 Padova</p>
-        <p><strong>Studio operativo:</strong> Via Fra’ Paolo Sarpi n° 90, 35138 Padova</p>
-        <p><strong>Tel. segreteria studio:</strong> 049 871 3077</p>
-        <p><strong>Cell. personale:</strong> 347 4343442</p>
-        <p><strong>Email personale:</strong> <a href="mailto:alessio.gobbis@allianzbankfa.it">alessio.gobbis@allianzbankfa.it</a></p>
-        <p><strong>Email assistente:</strong> <a href="mailto:segreteria@alessiogobbis.it">segreteria@alessiogobbis.it</a></p>
-        <p><strong>Sito aziendale:</strong> <a href="https://www.allianzbank.it" target="_blank">www.allianzbank.it</a></p>
-        <a href="mailto:alessio.gobbis@allianzbankfa.it">📩 Richiedi una Consulenza</a>
-    </section>
+  <section class="intro" id="profilo">
+    <img src="assets/foto-profilo.jpg" alt="Foto del Dott. Alessio Gobbis">
+    <h2>Profilo Professionale</h2>
+    <p>Il Dott. Alessio Gobbis è un <strong>Senior Financial Advisor</strong> di Allianz Bank Financial Advisors Spa, regolarmente iscritto all' <strong>Albo dei Consulenti Finanziari (OCF)</strong> con delibera Consob n° 723.  
+    Vanta una consolidata esperienza nella pianificazione patrimoniale, nella consulenza finanziaria avanzata e nella costruzione di portafogli d'investimento personalizzati, con particolare attenzione alla protezione del capitale e alla crescita sostenibile nel tempo.</p>
+  </section>
 
-    <footer>
-        &copy; 2025 Dott. Alessio Gobbis | Senior Financial Advisor Allianz Bank FA Spa | Tutti i diritti riservati
-    </footer>
+  <section id="titoli">
+    <h2>Titoli, Certificazioni e Cariche</h2>
+    <p>Il Dott. Alessio Gobbis vanta un percorso formativo e professionale di alto livello, che lo rende un punto di riferimento nel settore della consulenza finanziaria. Tra i suoi principali riconoscimenti:</p>
+    <ul>
+      <li>🎓 Laurea e Master universitario post-laurea, che garantiscono solide basi teoriche.</li>
+      <li>📌 Iscrizione all'Albo dei Consulenti Finanziari (OCF) – delibera Consob n° 723.</li>
+      <li>⚖️ Consulente per il Tribunale di Padova – iscrizione n° 3220.</li>
+      <li>🏢 Office Manager del Centro Consulenza Allianz Bank di Padova (Via Fra’ Paolo Sarpi).</li>
+      <li>🌍 Certificazioni EFPA (European Financial Planning Association) – ESG Advisor.</li>
+      <li>📚 Formatore certificato per l'Associazione Nazionale Consulenti Finanziari (ANASF).</li>
+      <li>✅ Membro del Registro Unico Intermediari – iscrizione n° E000549021 sez. E.</li>
+      <li>👥 Membro dell'Associazione Italiana Educatori Finanziari – n° 763.</li>
+    </ul>
+    <p>Questi riconoscimenti testimoniano l’impegno costante e l’elevato standard professionale mantenuto nel corso degli anni.</p>
+  </section>
+
+  <section class="cta" id="contatti">
+    <h2>Contatti</h2>
+    <p><strong>Studio di supporto:</strong> Prato della Valle n° 74, 35123 Padova</p>
+    <p><strong>Studio operativo:</strong> Via Fra’ Paolo Sarpi n° 90, 35138 Padova</p>
+    <p><strong>Tel. segreteria studio:</strong> 049 871 3077</p>
+    <p><strong>Cell. personale:</strong> 347 4343442</p>
+    <p><strong>Email personale:</strong> <a href="mailto:alessio.gobbis@allianzbankfa.it">alessio.gobbis@allianzbankfa.it</a></p>
+    <p><strong>Email assistente:</strong> <a href="mailto:segreteria@alessiogobbis.it">segreteria@alessiogobbis.it</a></p>
+    <p><strong>Sito aziendale:</strong> <a href="https://www.allianzbank.it" target="_blank">www.allianzbank.it</a></p>
+    <a href="mailto:alessio.gobbis@allianzbankfa.it">📩 Richiedi una Consulenza</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Dott. Alessio Gobbis | Senior Financial Advisor Allianz Bank FA Spa | Tutti i diritti riservati
+  </footer>
+
 </body>
 </html>
