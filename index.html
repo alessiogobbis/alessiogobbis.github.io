@@ -1,68 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dr. Alessio Gobbis - Senior Financial Advisor at Allianz Bank FA Spa, registered with the Italian Financial Advisors Register, specialized in wealth planning, investments, and capital protection.">
-    <title>Dr. Alessio Gobbis - Financial Advisor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Poppins', sans-serif; background: #f4f6f9; color: #333; margin: 0;}
-        header { background: linear-gradient(135deg, #0b3d91, #1e5cb3); color: white; padding: 50px 20px; text-align: center; position: relative;}
-        .lang-switch { position: absolute; top: 15px; right: 20px;}
-        .lang-switch a { background: #caa334; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px;}
-        nav { background: #062d6a; padding: 15px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 500;}
-        section { padding: 40px; max-width: 1000px; margin: auto;}
-        .intro { text-align: center;}
-        .intro img { width: 140px; border-radius: 50%; margin-bottom: 20px;}
-        h2 { color: #0b3d91; margin-bottom: 20px;}
-        ul li { margin-bottom: 10px;}
-        .cta { text-align: center; margin-top: 30px;}
-        .cta a { background: #caa334; color: white; padding: 14px 28px; text-decoration: none; border-radius: 6px; font-weight: bold;}
-        footer { background: #062d6a; color: white; text-align: center; padding: 15px; margin-top: 40px;}
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Dr. Alessio Gobbis - Senior Financial Advisor Allianz Bank FA Spa, Certified Financial Planner, expert in wealth planning, investments, and capital protection."
+  />
+  <title>Dr. Alessio Gobbis - Financial Advisor</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b3d91, #1e5cb3);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header img.logo {
+      width: 90px;
+      margin-bottom: 10px;
+    }
+
+    .lang-switch {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+
+    .lang-switch a {
+      background: transparent;
+      color: #caa334;
+      border: 2px solid #caa334;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .lang-switch a:hover {
+      background-color: #caa334;
+      color: white;
+    }
+
+    .lang-switch img.flag {
+      width: 18px;
+      height: auto;
+    }
+
+    nav {
+      background: #062d6a;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 20px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .intro img {
+      width: 140px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #0b3d91;
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta a {
+      background: none;
+      color: #0b3d91;
+      padding: 0;
+      border-radius: 0;
+      font-weight: 600;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .cta a:hover {
+      color: #062d6a;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #062d6a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="lang-switch">
-            <a href="index-it.html">🇮🇹 ITA</a>
-        </div>
-        <h1>Dr. Alessio Gobbis</h1>
-        <p>Senior Financial Advisor – Allianz Bank Financial Advisors Spa</p>
-    </header>
-    <nav>
-        <a href="#profile">Profile</a>
-        <a href="#credentials">Credentials & Certifications</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <header>
+    <div class="lang-switch">
+      <a href="index-ita.html">
+        <img class="flag" src="assets/flag-it.svg" alt="Italian Flag" />
+        Italiano
+      </a>
+    </div>
+    <img class="logo" src="assets/logo-ag.png" alt="Alessio Gobbis Logo" />
+    <h1>Dr. Alessio Gobbis</h1>
+    <p>Senior Financial Advisor – Allianz Bank Financial Advisors Spa</p>
+  </header>
 
-    <section class="intro" id="profile">
-        <img src="assets/foto-profilo.jpg" alt="Photo of Dr. Alessio Gobbis">
-        <h2>Professional Profile</h2>
-        <p>Dr. Alessio Gobbis is a <strong>Senior Financial Advisor</strong> at Allianz Bank Financial Advisors Spa, officially registered with the <strong>Italian Financial Advisors Register (OCF)</strong> under Consob Resolution No. 723.  
-        With extensive experience in wealth management, advanced financial planning, and tailored portfolio construction, he assists private clients and families in managing their assets, focusing on <strong>capital protection</strong> and <strong>sustainable long-term growth</strong>.</p>
-    </section>
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#credentials">Credentials & Titles</a>
+    <a href="#expertise">Areas of Expertise</a>
+    <a href="#contacts">Contacts</a>
+  </nav>
 
-    <section id="credentials">
-        <h2>Credentials, Certifications, and Roles</h2>
-        <ul>
-            <li>🎓 University Degree and Postgraduate Master's Degree</li>
-            <li>📌 Court-appointed Financial Consultant – Tribunal of Padua, Reg. No. 3220</li>
-            <li>🏢 Office Manager – Allianz Bank Financial Advisory Center, Padua (Via Fra’ Paolo Sarpi)</li>
-            <li>🌍 Certified Financial Planner (EFPA – European Financial Planning Association), ESG Advisor</li>
-            <li>📚 Certified Trainer for the Italian National Association of Financial Advisors (ANASF)</li>
-            <li>✅ Member of the Italian Financial Advisors Register – OCF, Consob Resolution No. 723</li>
-            <li>✅ Registered with the Italian Single Intermediaries Register – Reg. No. E000549021, Section E</li>
-            <li>👥 Member of the Italian Association of Financial Educators – Reg. No. 763</li>
-        </ul>
-    </section>
+  <section class="intro" id="profile">
+    <img src="assets/foto-profilo.jpg" alt="Photo of Dr. Alessio Gobbis" />
+    <h2>PATRIMONY LAB – Your Wealth, Built with Science and Vision</h2>
+    <p>
+      Today more than ever, those who wish to grow and protect their wealth require a clear, verifiable method based on objective data. Generic advice or mere “opinions” are no longer sufficient. An expert guide, continuously updated and equipped with concrete tools, is essential.
+    </p>
+    <p>
+      Dr. Alessio Gobbis, leveraging extensive experience in <strong>SICAVs</strong>, <strong>mutual funds</strong>, <strong>supplementary pension schemes</strong>, <strong>insurance solutions</strong>, <strong>inheritance</strong>, and <strong>generational wealth transfer</strong>, has chosen to go further by specializing in the <strong>construction of efficient portfolios</strong>.
+    </p>
+    <p>
+      Combining <strong>advanced training</strong>, <strong>professional software</strong>, <strong>algorithmic models</strong>, and especially <strong>artificial intelligence integration</strong>, he now designs tailored solutions with <strong>calculated risks, controlled performance, and realistic yet ambitious goals</strong>.
+    </p>
+    <p>
+      PATRIMONY LAB does not aim to sell products but to <strong>build scientifically sustainable strategies</strong>, adaptable to each client’s profile and able to support them through every stage of their financial life.
+    </p>
+    <p>
+      Choosing <strong>PATRIMONY LAB</strong> led by Dr. Alessio Gobbis means relying on a method where <strong>nothing is left to chance</strong> and every decision is supported by advanced analysis, <strong>turning market complexity into concrete opportunities</strong>.
+    </p>
+  </section>
 
-    <section class="cta" id="contact">
-        <h2>Contact</h2>
-        <p><strong>Support office:</strong> Prato della Valle 74, 35123 Padua, Italy</p>
-        <p><strong>Main office:</strong> Via Fra’ Paolo Sarpi 90, 35138 Padua, Italy</p>
-        <p><strong>Office phone:</strong> +39 049 871 3077</p>
-        <p><strong>Mobile:</strong> +39 347 4343442</p>
-        <p><strong>Personal email:</strong> <a href="mailto:alessio.gobbis@allianzbankfa.it">alessio.gobbis@allianzbankfa.it</a></p>
-        <p><strong>Assistant email:</strong> <a href="mailto:segreteria@alessiogobbis.it">segreteria@alessiogobbis.it</a></p>
+  <section id="credentials">
+    <h2>Professional Roles and Credentials</h2>
+    <p>
+      Dr. Alessio Gobbis is a <strong>licensed financial advisor</strong>, duly registered with the <strong>Italian Register of Financial Advisors (OCF)</strong> under <strong>Consob resolution no. 723</strong> and the <strong>Single Register of Intermediaries – Section E (No. E000549021)</strong>.
+    </p>
+    <p>
+      He boasts extensive experience in wealth, pension, and inheritance planning, complemented by numerous responsibilities and professional titles:
+    </p>
+    <ul>
+      <li><strong>Senior Financial Advisor – Allianz Bank Financial Advisors S.p.A.</strong></li>
+      <li><strong>Technical Advisor for the Court of Padua – Registration No. 3220</strong></li>
+      <li><strong>Office Manager at the Padua Advisory Center (Via Sarpi)</strong></li>
+      <li><strong>EFPA Certified – European Financial Planning Association</strong></li>
+      <li><strong>Certified ESG Advisor</strong></li>
+      <li><strong>Accredited Trainer for the National Association of Financial Advisors (ANASF)</strong></li>
+      <li><strong>Member No. 763 of the Italian Association of Financial Educators</strong></li>
+    </ul>
+  </section>
+
+  <section id="expertise">
+    <h2>Areas of Expertise and the AG+AI Method</h2>
+    <p>
+      Dr. Alessio Gobbis’ practice has evolved beyond traditional financial advisory. After a solid background in managing <strong>SICAVs, mutual funds, and unit-linked products</strong> — now considered foundational but insufficient to excel — he has steered his approach toward a <strong>highly technical advisory service</strong>, grounded in <strong>data, algorithms, and quantitative forecasting powered by artificial intelligence</strong>.
+    </p>
+    <p>
+      Artificial intelligence here does not replace human expertise but rather enhances it, providing unparalleled scientific calculation capabilities to recommend increasingly reliable and efficient instruments.
+    </p>
+    <p>
+      In recent years, he has specialized in <strong>advanced quantitative analysis, financial programming, and predictive technologies</strong>, adopting a scientific approach to building <strong>efficient, risk-controlled portfolios</strong> with objective performance evaluation metrics.
+    </p>
+    <p>
+      Dr. Gobbis designs efficient portfolios leveraging <strong>professional software</strong> and <strong>artificial intelligence tools</strong> that apply advanced quantitative methodologies to optimize every investment stage. The analyses and algorithms rely on:
+    </p>
+    <ul>
+      <li><strong>Real historical data</strong>,</li>
+      <li><strong>Risk and return metrics</strong>,</li>
+      <li><strong>Advanced optimization engines</strong>,</li>
+    </ul>
+    <p>
+      capable of translating theoretical simulations into coherent, dynamic, and personalized portfolio compositions.
+    </p>
+    <p>Main application areas include:</p>
+    <ul>
+      <li>
+        <strong>Quantitative Asset Allocation and Efficient Frontier Construction</strong><br />
+        Solutions are based on <strong>expected return and risk estimates for various asset classes</strong>, combined to identify optimal portfolios according to the principle of the <strong>best risk/volatility-adjusted return</strong>. The optimization engine enables the generation and periodic updating (e.g., every six months) of portfolios aligned with client risk profiles.
+      </li>
+      <li>
+        <strong>Historical Analyses and 36-Month Rolling Style Analysis</strong><br />
+        Monthly data analyses on financial instruments and portfolios are conducted over 1-, 3-, and 5-year horizons. In particular, the <strong>36-month rolling style analysis</strong> monitors the evolution of average fund composition and management activity over time.
+      </li>
+      <li>
+        <strong>Monte Carlo Simulations and Volatility Cone</strong><br />
+        Using probabilistic forecasting tools like the <strong>volatility cone</strong>, potential fluctuations in expected returns over the investment horizon are represented, enabling clients to manage risk expectations more consciously.
+      </li>
+      <li>
+        <strong>Risk Budgeting and Multi-Objective Optimization</strong><br />
+        Solutions are assessed with a <strong>multi-objective approach</strong>, considering not only returns but also stability, diversification, and portfolio compatibility. Optimization compares historical and current efficient frontiers, including flexible asset classes.
+      </li>
+      <li>
+        <strong>Financial Instrument Selection via Efficiency Indicators</strong><br />
+        Tools like the <strong>Sharpe Ratio</strong> are employed to identify instruments that provide higher risk-adjusted returns compared to traditional static asset allocations.
+      </li>
+      <li>
+        <strong>Wealth Transfer Planning and Capital Protection</strong><br />
+        The technical approach is integrated into a long-term strategic vision encompassing <strong>wealth protection, planned generational transfers, and safeguarding against unforeseen events</strong>.
+      </li>
+    </ul>
+    <p>
+      <strong>In summary</strong>, Dr. Gobbis applies a rigorous, data-driven methodology integrating:
+    </p>
+    <ul>
+      <li>Historical and behavioral portfolio analyses;</li>
+      <li>Mathematical algorithms for efficient portfolio construction;</li>
+      <li>Performance indicators and risk management tools;</li>
+      <li>Continuous optimization tailored to individual profiles and goals.</li>
+    </ul>
+    <p>
+      The aim is to build <strong>measurable, replicable, and consistent financial strategies over time</strong>, delivering value both in the accumulation and preservation phases of wealth.
+    </p>
+    <p>
+      The solutions proposed are designed to ensure <strong>scalable, replicable, and measurable investment strategies</strong> focused on <strong>reducing uncertainty</strong> and <strong>optimizing the risk/return ratio</strong> over the long term.
+    </p>
+  </section>
+
+  <section class="cta" id="contacts">
+    <h2>Contacts</h2>
+    <p><strong>Support Office:</strong> Prato della Valle 74, 35123 Padua, Italy</p>
+    <p><strong>Main Office:</strong> Via Fra’ Paolo Sarpi 90, 35138 Padua, Italy</p>
+    <p><strong>Office Phone:</strong> +39 049 871 3077</p>
+    <p><strong>Mobile Phone:</strong> +39 347 4343442</p>
+    <p>
+      <strong>Personal Email:</strong>
+      <a href="mailto:alessio.gobbis@allianzbankfa.it">alessio.gobbis@allianzbankfa.it</a>
+    </p>
+    <p>
+      <strong>Assistant Email:</strong>
+      <a href="mailto:segreteria@alessiogobbis.it">segreteria@alessiogobbis.it</a>
+    </p>
+    <p>
+      <strong>Corporate Website:</strong>
+      <a href="https://www.allianzbank.it" target="_blank" rel="noopener">www.allianzbank.it</a>
+    </p>
+    <a href="mailto:alessio.gobbis@allianzbankfa.it">📩 Request a Consultation</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Dr. Alessio Gobbis | Senior Financial Advisor Allianz Bank FA Spa | All rights
+    reserved
+  </footer>
+</body>
+</html>
