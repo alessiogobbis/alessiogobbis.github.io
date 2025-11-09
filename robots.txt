@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alessiogobbis.github.io/sitemap.xml
